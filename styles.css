@@ -24,9 +24,8 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 40px 30px;
+  padding: 10px 30px;
   align-items: center;
-  height: 5vh;
   background-color: white;
 }
 
@@ -96,5 +95,22 @@ button {
   letter-spacing: 2px;
   outline: none;
   border: none;
+}
 
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 320px){
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: white;
+    padding: 0 15px;
+  }
 }
