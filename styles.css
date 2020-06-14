@@ -21,19 +21,24 @@ body {
   color: black;
 }
 
-
-
 header {
   display: flex;
   justify-content: space-between;
-  margin: 10px 30px;
+  padding: 40px 30px;
   align-items: center;
   height: 5vh;
+  background-color: white;
 }
 
 header img {
   height: 45px;
 }
+
+header a img{
+  height: 45px;
+  width: 45px;
+}
+
 
 main{
   width: 100%;
@@ -49,8 +54,8 @@ main form{
   border-radius: 8px;
   
   width: 100%;
-  max-width: 500px;
-  padding: 10px;
+  max-width: 550px;
+  padding: 35px;
   
   display: flex;
   flex-direction: column;
@@ -59,9 +64,12 @@ main form{
 h2 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
+  color: tomato;
+  font-size: 45px;
+  margin-bottom: 35px;
 }
 
-input, button {
+input {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -73,6 +81,20 @@ input, button {
   border-bottom: 1px solid rgb(214, 106, 43);
 
   outline: none;
+
+  margin-bottom: 25px;
 }
 
+button {
+  width: 100%;
+  padding: 16px 0;
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
 
+}
