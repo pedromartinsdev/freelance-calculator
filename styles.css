@@ -55,7 +55,7 @@ main {
 
 }
 
-main form {
+div.form {
   background-color: white;
   border-radius: 8px;
 
@@ -183,7 +183,7 @@ footer {
   
     background-color: white;
   }
-  form {
+  div.form {
     margin-bottom: 50px;
   }
 }
