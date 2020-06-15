@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@300;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,13 +12,14 @@ html {
 }
 
 body {
-  height: 100vh;
-  
   display: flex;
   flex-direction: column;
-  
+
+  height: 100%;
+
   background-color: #f0f0f0;
   color: black;
+
 }
 
 header {
@@ -33,36 +34,41 @@ header img {
   height: 45px;
 }
 
-header a img{
+header a img {
   height: 30px;
   width: 30px;
   margin-left: 25px;
 }
 
-
-main{
+main {
   width: 100%;
   height: 100%;
 
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   align-items: center;
-  justify-content: center;
+
+  background-color: rgba(255, 255, 255, 0.589);
+
+  padding: 35px 0;
+
 }
 
-main form{
+main form {
   background-color: white;
   border-radius: 8px;
-  
+
   width: 100%;
   max-width: 550px;
   padding: 35px;
-  
+
   display: flex;
   flex-direction: column;
 }
 
 h2 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   color: #ff6347;
   font-size: 45px;
@@ -101,14 +107,47 @@ button {
   border: none;
 }
 
+.container-result {
+  height: 250px;
+  width: 350px;
+
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px;
+
+  background-color: white;
+}
+
+p {
+  font-size: 50px;
+  color: gray;
+
+}
+
+h3 {
+  color: #ff6347;
+  font-weight: 300;
+}
+
 footer {
   background-color: white;
   display: flex;
   justify-content: center;
+
 }
 
+@media (max-width: 570px) {
 
-@media (max-width: 320px){
+  h2{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
   header {
     display: flex;
     align-items: center;
@@ -116,5 +155,37 @@ footer {
     height: 10vh;
     background-color: white;
     padding: 0 15px;
+  }
+  
+}
+@media (max-width: 1024px){
+  main {
+    width: 100%;
+    height: 100%;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  
+    background-color: indigo;
+  
+    padding: 35px 0;
+  
+  }
+  .container-result {
+    height: 250px;
+    width: 320px;
+  
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+     
+    padding: 30px 10px;
+  
+    background-color: white;
+  }
+  form {
+    margin-bottom: 50px;
   }
 }

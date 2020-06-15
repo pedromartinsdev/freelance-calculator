@@ -15,26 +15,31 @@
       </div>
     </header>
     <main>
-      <form action="">
+      <form action="#">
         <h2>Calculadora Freelance</h2>
         <div class="input">
           <label for="project-value">Valor do Projeto</label>
-          <input type="number" required value="2000" name="project-value" />
+          <input type="number" required min="1" name="project-value" />
         </div>
         <div class="input">
           <label for="worked-hours">Horas trabalhadas por dia</label>
-          <input type="number" required value="8" name="worked-hours" />
+          <input type="number" required min="1" name="worked-hours" />
         </div>
         <div class="input">
           <label for="">Dias trabalhados na Semana</label>
-          <input type="number" required value="5" name="worked-days" />
+          <input type="number" required min="1" name="worked-days" />
         </div>
         <div class="input">
           <label for="">Dias de Férias pelo projeto</label>
-          <input type="number" required value="4" name="vacation-days" />
+          <input type="number" required min="1" name="vacation-days" />
         </div>
         <button type="submit" onclick="calculo()">Calcular</button>
       </form>
+
+      <div class="container-result">
+          <p id="result">R$ 0,00</p>
+          <h3>Por hora</h3>
+      </div>
     </main>
     <footer>
       <a href="https://icons8.com/icon/106567/github">Icons by Icons8</a>
