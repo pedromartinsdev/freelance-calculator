@@ -11,34 +11,36 @@
       <img src="assets/pedro-martins-logo.svg" alt="Logo Pedro Martins" />
       <div class="social">
         <a href="#"><img src="assets/github-logo.svg" alt="github link" /></a>
-        <a href="#"><img src="assets/linkedin-logo.svg" alt="LinkedIn link" /></a>
+        <a href="#"
+          ><img src="assets/linkedin-logo.svg" alt="LinkedIn link"
+        /></a>
       </div>
     </header>
     <main>
-      <form action="#">
+      <form action="">
         <h2>Calculadora Freelance</h2>
         <div class="input">
           <label for="project-value">Valor do Projeto</label>
-          <input type="number" required min="1" name="project-value" />
+          <input type="number" required min="1" value="" name="project-value" />
         </div>
         <div class="input">
           <label for="worked-hours">Horas trabalhadas por dia</label>
-          <input type="number" required min="1" name="worked-hours" />
+          <input type="number" required min="1" value="" name="worked-hours" />
         </div>
         <div class="input">
           <label for="">Dias trabalhados na Semana</label>
-          <input type="number" required min="1" name="worked-days" />
+          <input type="number" required min="1" value="" name="worked-days" />
         </div>
         <div class="input">
-          <label for="">Dias de Férias pelo projeto</label>
-          <input type="number" required min="1" name="vacation-days" />
+          <label for="">Semanas de Férias</label>
+          <input type="number" required min="1" value="" name="vacation-days" />
         </div>
         <button type="submit" onclick="calculo()">Calcular</button>
       </form>
 
       <div class="container-result">
-          <p id="result">R$ 0,00</p>
-          <h3>Por hora</h3>
+        <p id="result">R$ 0,00</p>
+        <h3>Por hora</h3>
       </div>
     </main>
     <footer>
