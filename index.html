@@ -8,40 +8,37 @@
   </head>
   <body>
     <header>
-      <img src="assets/logo.png" alt="Logo Pedro Martins" />
+      <img src="assets/pedro-martins-logo.svg" alt="Logo Pedro Martins" />
       <div class="social">
-        <a href="#">
-          <img src="assets/icons8-github.svg" alt="" srcset="" />
-        </a>
-        <a href="#">
-          <img src="assets/icons8-linkedin.svg" alt="" srcset="" />
-        </a>
+        <a href="#"><img src="assets/github-logo.svg" alt="github link" /></a>
+        <a href="#"><img src="assets/linkedin-logo.svg" alt="LinkedIn link" /></a>
       </div>
     </header>
     <main>
       <form action="">
         <h2>Calculadora Freelance</h2>
         <div class="input">
-          <label for="">Valor do Projeto</label>
-          <input type="text" required />
+          <label for="project-value">Valor do Projeto</label>
+          <input type="number" required value="2000" name="project-value" />
         </div>
         <div class="input">
-          <label for="">Horas trabalhadas por dia</label>
-          <input type="text" required />
+          <label for="worked-hours">Horas trabalhadas por dia</label>
+          <input type="number" required value="8" name="worked-hours" />
         </div>
         <div class="input">
           <label for="">Dias trabalhados na Semana</label>
-          <input type="text" required />
+          <input type="number" required value="5" name="worked-days" />
         </div>
         <div class="input">
           <label for="">Dias de Férias pelo projeto</label>
-          <input type="text" required />
+          <input type="number" required value="4" name="vacation-days" />
         </div>
-        <button type="submit">Calcular</button>
+        <button type="submit" onclick="calculo()">Calcular</button>
       </form>
     </main>
     <footer>
       <a href="https://icons8.com/icon/106567/github">Icons by Icons8</a>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

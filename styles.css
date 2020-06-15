@@ -34,8 +34,9 @@ header img {
 }
 
 header a img{
-  height: 45px;
-  width: 45px;
+  height: 30px;
+  width: 30px;
+  margin-left: 25px;
 }
 
 
@@ -63,7 +64,7 @@ main form{
 h2 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-  color: tomato;
+  color: #ff6347;
   font-size: 45px;
   margin-bottom: 35px;
 }
@@ -75,13 +76,16 @@ input {
 
   width: 100%;
   padding: 16px 0;
-
   border: none;
   border-bottom: 1px solid rgb(214, 106, 43);
 
   outline: none;
 
   margin-bottom: 25px;
+
+  color: gray;
+  font-size: 25px;
+  text-align: center;
 }
 
 button {
