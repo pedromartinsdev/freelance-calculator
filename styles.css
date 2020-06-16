@@ -8,14 +8,14 @@
 
 html {
   font-family: "Roboto", sans-serif;
-  height: 100%;
 }
 
 body {
   display: flex;
   flex-direction: column;
 
-  height: 100%;
+
+  height: 100vh;
 
   background-color: #f0f0f0;
   color: black;
@@ -41,7 +41,6 @@ header a img {
 }
 
 main {
-  width: 100%;
   height: 100%;
 
   display: grid;
@@ -52,6 +51,7 @@ main {
   background-color: rgba(255, 255, 255, 0.589);
 
   padding: 35px 0;
+
 
 }
 
