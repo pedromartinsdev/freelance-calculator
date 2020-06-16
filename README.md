@@ -24,4 +24,4 @@ Basta Acessar esse link:
 
 [Freelance Calculator](https://pedromartinscap.github.io/freelance-calculator/)
 
- Feito com :yellow_heart: por Pedro Henrique - [LinkeIn](https://www.linkedin.com/in/pedrohenriqueoliveiramartins/)
+ Feito com :yellow_heart: por Pedro Henrique - [LinkedIn](https://www.linkedin.com/in/pedrohenriqueoliveiramartins/)
