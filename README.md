@@ -22,6 +22,6 @@ Foram usadas as seguintes tcnologias neste projeto:
 
 Basta Acessar esse link:
 
-[Freelance Calculator](https://pedromartinscap.github.io/freelance-calculator/)
+[Freelance Calculator](https://pedromartinsdev.github.io/freelance-calculator/)
 
  Feito com :yellow_heart: por Pedro Henrique - [LinkedIn](https://www.linkedin.com/in/pedrohenriqueoliveiramartins/)
